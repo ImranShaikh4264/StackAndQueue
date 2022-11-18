@@ -8,7 +8,8 @@ public class QueueMain {
 		queue.enqueue(70);
 		queue.print();
 		System.out.println("");
-		
+		System.out.println(queue.dequeue());
+		queue.print();
 
 
 	}
